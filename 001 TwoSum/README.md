@@ -21,7 +21,7 @@ return [0, 1].
 
 2. 哈希表
 
-   key是num中的值，value是num的index。相当于逆转了map中val和index的对应关系。
+   需要注意的是根据题目所求返回值为index，map的key设为num的值，而value设为num的index
 
    两种使用方法：
    
