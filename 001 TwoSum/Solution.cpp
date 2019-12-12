@@ -31,7 +31,7 @@ public:
             }
             //a.insert({nums[i],i});
             //insert函数插入相同的key不会覆盖value，但下面这句可以
-            a[nums[i]]=i
+            a[nums[i]]=i;
             // 这个map的key是数组的值，value是对应的index
         }
         return b;
