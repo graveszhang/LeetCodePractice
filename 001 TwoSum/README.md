@@ -16,6 +16,7 @@ return [0, 1].
 1. 暴力法：遍历两遍   
 
    Time complexity: $O(n^2)$
+   
    Space complexity: $O(1)$
 
 2. 哈希表
