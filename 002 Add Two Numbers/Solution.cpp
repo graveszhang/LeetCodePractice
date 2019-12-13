@@ -9,61 +9,47 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        int len1=1;//记录l1的长度
-        int len2=1;//记录l2的长度
-        ListNode* p=l1;
-        ListNode* q=l2;
-        while(p->next!=NULL)//获取l1的长度
-        {
-            len1++;
-            p=p->next;
-        }
-        while(q->next!=NULL)//获取l2的长度
-        {
-            len2++;
-            q=q->next;
-        }
-        if(len1>len2)//l1较长，在l2末尾补零
-        {
-            for(int i=1;i<=len1-len2;i++)
-            {
-                q->next=new ListNode(0);
-                q=q->next;
+        ListNode *result = new ListNode(-1); // 初始化
+        ListNode *pre = result; 
+        ListNode *l11 = l1; 
+        ListNode *l22 = l2;
+        
+        // 对于链表问题，返回结果为头结点时，通常需要先初始化一个预先指针 pre，
+        // 该指针的下一个节点指向真正的头结点head。使用预先指针的目的在于链表初始化时无可用节点值，
+        // 而且链表构造过程需要指针移动，进而会导致头指针丢失，无法返回结果。
+        
+        bool addone = false; // 判断是否进位
+        while(l1->next!=NULL || l2->next!=NULL){ // 位数不同时补0使得位数相同
+            if(l1->next == NULL && l2->next!=NULL){
+                l1->next = new ListNode(0);
             }
-        }
-        else//l2较长，在l1末尾补零
-        {
-            for(int i=1;i<=len2-len1;i++)
-            {
-                p->next=new ListNode(0);
-                p=p->next;
+            else if (l1->next != NULL && l2->next==NULL){
+                l2->next = new ListNode(0);
             }
+            l1 = l1->next;
+            l2 = l2->next;
         }
-        p=l1;
-        q=l2;
-        bool count=false;//记录进位
-        ListNode* l3=new ListNode(-1);//存放结果的链表
-        ListNode* w=l3;//l3的移动指针
-        int i=0;//记录相加结果
-        while(p!=NULL&&q!=NULL)
-        {
-            i=count+p->val+q->val;
-            w->next=new ListNode(i%10);
-            count=i>=10?true:false;
-            w=w->next;
-            p=p->next;
-            q=q->next;
+
+        while(l11!=NULL && l22!=NULL){
+            if (l11->val+l22->val+addone<10){ // 每一位都要考虑加上上一位的进位
+                result->next = new ListNode(l11->val+l22->val+addone); // 直接从第二位开始保存结果，不存在当前位的原因是下一位难以初始化
+                addone = false; 
+            }
+            else{
+                result->next = new ListNode((l11->val+l22->val+addone)%10);
+                addone = true;
+            }
+            l11 = l11->next;
+            l22 = l22->next;
+            result = result->next;
         }
-        if(count)//若最后还有进位
-        {
-            w->next=new ListNode(1);
-            w=w->next;
+        if(addone){ // 最后一位的进位问题
+            result->next = new ListNode(1);
+            result = result->next;
         }
-        return l3->next; 
+        return pre->next; // pre指向result的第一位是初始化产生的-1，从next开始是结果
     }
 };
 
-作者：chenlele
-链接：https://leetcode-cn.com/problems/add-two-numbers/solution/liang-shu-xiang-jia-by-gpe3dbjds1/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+// 执行用时 : 20 ms, 在所有 cpp 提交中击败了 98.55% 的用户
+// 内存消耗 : 10.4 MB, 在所有 cpp 提交中击败了 79.80% 的用户
