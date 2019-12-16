@@ -1,5 +1,4 @@
 # LeetCodePractice
-Solutions | Ideas | Review
 
 NO.|Title|Solution|Note|Difficulty|Tag|
 |---|-----|--------|----|----------|---|
