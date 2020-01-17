@@ -33,5 +33,5 @@ P     I
 - Use str.join() to append list to str
 
 ### Result
-Runtime: 60 ms, faster than 61.72% of Python3 online submissions for ZigZag Conversion.
-Memory Usage: 12.8 MB, less than 100.00% of Python3 online submissions for ZigZag Conversion.
+- Runtime: 60 ms, faster than 61.72% of Python3 online submissions for ZigZag Conversion.
+- Memory Usage: 12.8 MB, less than 100.00% of Python3 online submissions for ZigZag Conversion.
