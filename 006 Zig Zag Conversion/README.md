@@ -31,3 +31,7 @@ P     I
 - Create a 2D list that each row of the list is another list, use step and row to navigate through the 2D list.
 - Whenever row = rowNum-1, make step = -1 until reach row = 1.
 - Use str.join() to append list to str
+
+### Result
+Runtime: 60 ms, faster than 61.72% of Python3 online submissions for ZigZag Conversion.
+Memory Usage: 12.8 MB, less than 100.00% of Python3 online submissions for ZigZag Conversion.
