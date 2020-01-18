@@ -30,7 +30,3 @@ class Solution:
         elif (intResult >= 2**31-1): return 2**31-1
         else: return intResult
 
-if (__name__ == "__main__"):
-    str="-123 dsa"
-    print(myAtoi(str))
-
