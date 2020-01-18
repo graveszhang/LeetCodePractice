@@ -9,4 +9,4 @@ NO.|Title|Solution|Difficulty|Tag|Topic|
 |005|[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring)|C++|Medium|`Unsolved`|
 |006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/submissions/)|Python|Medium|`Solved`|![](https://img.shields.io/badge/Basic-Skill-red.svg)|
 |007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/submissions/)|Python|Easy|`Solved`|![](https://img.shields.io/badge/Basic-Skill-red.svg)|
-|008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|Python|Medium|`Solved`|![](https://img.shields.io/badge/Regex-Match-orange.svg)|
+|008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|Python|Medium|`Solved`|![](https://img.shields.io/badge/Basic-Skill-red.svg)![](https://img.shields.io/badge/Regex-Match-orange.svg)|
