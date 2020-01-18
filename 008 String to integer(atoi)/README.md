@@ -43,7 +43,8 @@ Explanation: The number "-91283472332" is out of the range of a 32-bit signed in
              Thefore INT_MIN (−231) is returned.
 ```
 ### Ideas
-- Use Regex Match saves a lot of time for such pattern
+- Brute Force solve this problem easily
+- Regex Match makes your code looks beautiful, but it might take more time to execute
 
 ### Result
 - Runtime: 36 ms, faster than 34.14% of Python3 online submissions for String to Integer (atoi).
