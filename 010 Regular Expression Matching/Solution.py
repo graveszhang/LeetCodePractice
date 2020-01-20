@@ -1,6 +1,7 @@
-s = "mississippi"  # input(a-z)
-p = "mis*is*ip*."  # pattern(a-z.*)
+s = "aaa"  # input(a-z)
+p = "ab*a*c*a"  # pattern(a-z.*)
 # test case
+
 
 def regular_match(s, p):
     if (p == ".*"):
@@ -22,9 +23,17 @@ def regular_match(s, p):
         elif(p[pp] == '.'):
             if (pp+1 < len(p)):
                 if (p[pp+1] == '*'):
-                    return True
-                else: p = p.replace(".", s[sp])
-            else: p = p.replace(".", s[sp])
+                    if (pp+2 < len(p)):
+                        if (p[pp+2] in s):
+                            sp = s.find(p[pp+2], sp)
+                        else:
+                            return False
+                    else:
+                        return True
+                else:
+                    p = p.replace(".", s[sp])
+            else:
+                p = p.replace(".", s[sp])
         elif(p[pp] == "*" and s[sp] == p[pp-1]):
             while (sp < len(s)):
                 if (s[sp] == p[pp-1]):
@@ -32,6 +41,12 @@ def regular_match(s, p):
                 else:
                     break
             pp += 1
+            if (pp < len(p)):
+                if (sp == len(s)):
+                    if (p[pp] == s[sp-1]):
+                        pp += 1
+                    else:
+                        return False
         else:
             if (pp+1 < len(p)):
                 if (p[pp+1] == '*'):
@@ -41,7 +56,10 @@ def regular_match(s, p):
             else:
                 return False
 
-    return True
+    if(pp >= len(p)):
+        return True
+    else:
+        return False
 
 
 if __name__ == "__main__":
