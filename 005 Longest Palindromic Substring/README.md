@@ -16,3 +16,5 @@ Output: "bb"
 ``````
 
 ### Ideas
+- Brute force: use two pointers inside for loop, and record the length of the palindromic string.
+- DP: ...
