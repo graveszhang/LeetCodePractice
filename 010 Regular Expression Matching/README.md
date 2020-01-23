@@ -45,3 +45,6 @@ Input:
 s = "mississippi"
 p = "mis*is*p*."
 Output: false
+
+### Ideas
+DP: use dp(i,j) to represent the status of equivalence of ith text and jth pattern
