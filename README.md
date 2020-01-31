@@ -15,3 +15,4 @@ NO.|Title|Solution|Difficulty|Topic|
 |011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|Python|Medium|![](https://img.shields.io/badge/Two-Pointers-lightgrey.svg)|
 |012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|Python|Medium|![](https://img.shields.io/badge/Hash-Table-brightgreen.svg)|
 |013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|Python|Eazy|![](https://img.shields.io/badge/Hash-Table-brightgreen.svg)|
+|014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|Python|Easy|![](https://img.shields.io/badge/Brute-Force-red.svg)|
