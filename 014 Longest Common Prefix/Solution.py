@@ -2,7 +2,7 @@ class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if not strs: return ""
         if len(strs)==1: return strs[0]
-        minlen = 1000
+        minlen = 1000 # to mark a minimum length among strs
         for i in strs:
             minlen = min(len(i),minlen) 
             if not i: 
