@@ -16,3 +16,4 @@ NO.|Title|Solution|Difficulty|Topic|
 |012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|Python|Medium|![](https://img.shields.io/badge/Hash-Table-brightgreen.svg)|
 |013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|Python|Eazy|![](https://img.shields.io/badge/Hash-Table-brightgreen.svg)|
 |014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|Python|Easy|![](https://img.shields.io/badge/Brute-Force-red.svg)|
+|020|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)|Python|Easy|![](https://img.shields.io/badge/Stach-red.svg)|
