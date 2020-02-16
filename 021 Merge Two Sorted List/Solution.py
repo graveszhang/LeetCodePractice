@@ -5,7 +5,9 @@
 #         self.next = None
 
 class Solution:
+    #### Not Passed --> Time Limited Err
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+        if l2 == None: return l1
         head = l2
         while l1 != None:
             while l2.next.val <= l1.val:
@@ -15,5 +17,4 @@ class Solution:
             l1 = l1.next
         return head
 
-#### Not Passed --> Time Limited Err
 
