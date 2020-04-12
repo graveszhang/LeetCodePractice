@@ -1,3 +1,12 @@
+## 思路
+'''
+判断点是否在线段上
+
+设线段的两端点为 s， e，如果点 p 在该线段上，
+那么 distance(p,s) + distance(p,e) == distance(s, e)，
+否则p就不在该线段上。
+'''
+
 ## Unfinished 
 class Solution:
     def intersection(self, start1: List[int], end1: List[int], start2: List[int], end2: List[int]) -> List[float]:
