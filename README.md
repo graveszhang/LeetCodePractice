@@ -4,7 +4,7 @@ This table summarizes the leetcode problems I personally solved with certain kin
 
 |Topic|Easy|Medium|Hard|Total Solved|
 |-----|----|------|----|-----|
-|![](https://img.shields.io/badge/Dynamic-Programming-brightgreen.svg)|122|55|42，72|4|
-|![](https://img.shields.io/badge/Greedy-blue.svg)|121|56||2|
-|![](https://img.shields.io/badge/BFS-DFS-orange.svg)||22||1|
+|![](https://img.shields.io/badge/Dynamic-Programming-brightgreen.svg)|122|55|42，72|
+|![](https://img.shields.io/badge/Greedy-Algorithm-blue.svg)|121|56||
+|![](https://img.shields.io/badge/BFS-DFS-orange.svg)||22||
 
