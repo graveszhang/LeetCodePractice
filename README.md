@@ -1,6 +1,6 @@
 # Algorithm Proficiency Summary
 
-This table summarizes the leetcode problems I personally solved with certain kinds of method. Last updated 4/18/2020.
+This table summarizes the certain kinds of methods I chose to solve leetcode problems. 
 
 |Topic|Easy|Medium|Hard|
 |-----|----|------|----|
