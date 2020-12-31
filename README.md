@@ -1,5 +1,6 @@
 ## Leetcode questions
 
+Start all over again on Dec. 31, 2020.
 
 ### Hash
 |#|Problems|Level|
