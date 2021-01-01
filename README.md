@@ -6,3 +6,8 @@ Start all over again on Dec.31, 2020.
 |#|Problems|Level|
 |:-:|:-: | :-: |
 |[001](https://leetcode-cn.com/problems/two-sum/)|两数之和|Easy|
+
+### Linked List
+|#|Problems|Level|
+|:-:|:-: | :-: |
+|[002](https://leetcode-cn.com/problems/add-two-numbers/)|两数相加|Medium|
