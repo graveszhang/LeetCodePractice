@@ -2,6 +2,11 @@
 
 Start all over again using Java/C++, since Dec.31, 2020.
 
+### Dynamic Programming
+|#|Problems|Level|
+|:-:|:-: | :-: |
+|005|最长回文子串|Medium|
+
 ### Hash
 |#|Problems|Level|
 |:-:|:-: | :-: |
@@ -13,12 +18,13 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |:-:|:-: | :-: |
 |002|两数相加|Medium|
 
-### Dynamic Programming
+### Math
 |#|Problems|Level|
 |:-:|:-: | :-: |
-|005|最长回文子串|Medium|
+|007|整数反转|Easy|
 
 ### String
 |#|Problems|Level|
 |:-:|:-: | :-: |
 |006|Z字形变换|Medium|
+
