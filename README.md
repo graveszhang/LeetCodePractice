@@ -22,6 +22,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |#|Problems|Level|
 |:-:|:-: | :-: |
 |007|整数反转|Easy|
+|008|字符串转换整数|Medium|
 
 ### String
 |#|Problems|Level|
