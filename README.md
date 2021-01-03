@@ -17,3 +17,8 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |#|Problems|Level|
 |:-:|:-: | :-: |
 |[005](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)|最长回文子串|Medium|
+
+### String
+|#|Problems|Level|
+|:-:|:-: | :-: |
+|006|Z字形变换|Medium|
