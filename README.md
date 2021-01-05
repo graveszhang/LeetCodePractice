@@ -8,7 +8,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |005|最长回文子串|Medium|
 |053|最大子序和|Easy|
 
-### Hash
+### Hash Table
 |#|Problems|Level|
 |:-:|:-: | :-: |
 |001|两数之和|Easy|
@@ -27,7 +27,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |007|整数反转|Easy|
 |008|字符串转换整数|Medium|
 |066|加一|Easy|
-|440|字典序的第K小数字|Hard| 
+|440|字典序的第K小数字|Hard|
 
 ### String
 |#|Problems|Level|
