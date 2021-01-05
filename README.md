@@ -6,6 +6,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |#|Problems|Level|
 |:-:|:-: | :-: |
 |005|最长回文子串|Medium|
+|053|最大子序和|Easy|
 
 ### Hash
 |#|Problems|Level|
