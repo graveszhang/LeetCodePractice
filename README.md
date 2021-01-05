@@ -17,6 +17,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |#|Problems|Level|
 |:-:|:-: | :-: |
 |002|两数相加|Medium|
+|206|反转链表|Easy|
 
 ### Math
 |#|Problems|Level|
