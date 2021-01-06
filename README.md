@@ -13,6 +13,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |:-:|:-: | :-: |
 |001|两数之和|Easy|
 |003|无重复字符的最长字串|Medium|
+|020|有效的括号|Easy|
 
 ### Linked List
 |#|Problems|Level|
