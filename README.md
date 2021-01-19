@@ -4,32 +4,32 @@ Start all over again using Java/C++, since Dec.31, 2020.
 
 <table>
    <tr>
-      <td colspan="3">Dynamic Programming</td>
-      <td colspan="3">Hash Table</td>
-      <td colspan="3">Linked List</td>
-      <td colspan="3">Math</td>
-      <td colspan="3">String</td>
-      <td colspan="3">Two Pointers</td>
+      <th colspan="3">Dynamic Programming</th>
+      <th colspan="3">Hash Table</th>
+      <th colspan="3">Linked List</th>
+      <th colspan="3">Math</th>
+      <th colspan="3">String</th>
+      <th colspan="3">Two Pointers</th>
    </tr>
    <tr>
-      <td>#</td>
-      <td>Problems</td>
-      <td>Level</td>
-      <td>#</td>
-      <td>Problems</td>
-      <td>Level</td>
-      <td>#</td>
-      <td>Problems</td>
-      <td>Level</td>
-      <td>#</td>
-      <td>Problems</td>
-      <td>Level</td>
-      <td>#</td>
-      <td>Problems</td>
-      <td>Level</td>
-      <td>#</td>
-      <td>Problems</td>
-      <td>Level</td>
+      <th>#</th>
+      <th>Problems</th>
+      <th>Level</th>
+      <th>#</th>
+      <th>Problems</th>
+      <th>Level</th>
+      <th>#</th>
+      <th>Problems</th>
+      <th>Level</th>
+      <th>#</th>
+      <th>Problems</th>
+      <th>Level</th>
+      <th>#</th>
+      <th>Problems</th>
+      <th>Level</th>
+      <th>#</th>
+      <th>Problems</th>
+      <th>Level</th>
    </tr>
    <tr>
       <td>5</td>
