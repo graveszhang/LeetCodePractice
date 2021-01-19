@@ -29,6 +29,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |:-:|:-: | :-: |
 |007|整数反转|Easy|
 |008|字符串转换整数|Medium|
+|031|下一个排列|Medium|
 |033|搜索旋转排序数组|Medium|
 |046|全排列|Medium|
 |056|合并区间|Medium|
