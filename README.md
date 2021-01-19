@@ -2,133 +2,44 @@
 
 Start all over again using Java/C++, since Dec.31, 2020.
 
-<table>
-   <tr>
-      <th colspan="3">Dynamic Programming</th>
-      <th colspan="3">Hash Table</th>
-      <th colspan="3">Linked List</th>
-      <th colspan="3">Math</th>
-      <th colspan="3">String</th>
-      <th colspan="3">Two Pointers</th>
-   </tr>
-   <tr>
-      <th>#</th>
-      <th>Problems</th>
-      <th>Level</th>
-      <th>#</th>
-      <th>Problems</th>
-      <th>Level</th>
-      <th>#</th>
-      <th>Problems</th>
-      <th>Level</th>
-      <th>#</th>
-      <th>Problems</th>
-      <th>Level</th>
-      <th>#</th>
-      <th>Problems</th>
-      <th>Level</th>
-      <th>#</th>
-      <th>Problems</th>
-      <th>Level</th>
-   </tr>
-   <tr>
-      <td>5</td>
-      <td>最长回文子串</td>
-      <td>Medium</td>
-      <td>1</td>
-      <td>两数之和</td>
-      <td>Easy</td>
-      <td>2</td>
-      <td>两数相加</td>
-      <td>Medium</td>
-      <td>7</td>
-      <td>整数反转</td>
-      <td>Easy</td>
-      <td>6</td>
-      <td>Z字形变换</td>
-      <td>Medium</td>
-      <td>11</td>
-      <td>盛水最多的容器</td>
-      <td>Medium</td>
-   </tr>
-   <tr>
-      <td>53</td>
-      <td>最大子序和</td>
-      <td>Easy</td>
-      <td>3</td>
-      <td>无重复字符的最长字串</td>
-      <td>Medium</td>
-      <td>21</td>
-      <td>合并两个有序链表</td>
-      <td>Easy</td>
-      <td>8</td>
-      <td>字符串转换整数</td>
-      <td>Medium</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>15</td>
-      <td>三数之和</td>
-      <td>Medium</td>
-   </tr>
-   <tr>
-      <td>121</td>
-      <td>买卖股票的最佳时机</td>
-      <td>Easy</td>
-      <td>20</td>
-      <td>有效的括号</td>
-      <td>Easy</td>
-      <td>206</td>
-      <td>反转链表</td>
-      <td>Easy</td>
-      <td>33</td>
-      <td>搜索旋转排序数组</td>
-      <td>Medium</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-   </tr>
-   <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>146</td>
-      <td>LRU缓存机制</td>
-      <td>Medium</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>66</td>
-      <td>加一</td>
-      <td>Easy</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-   </tr>
-   <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>440</td>
-      <td>字典序的第K小数字</td>
-      <td>Hard</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-   </tr>
-</table>
+### Dynamic Programming
+|#|Problems|Level|
+|:-:|:-: | :-: |
+|005|最长回文子串|Medium|
+|053|最大子序和|Easy|
+|121|买卖股票的最佳时机|Easy|
+
+### Hash Table
+|#|Problems|Level|
+|:-:|:-: | :-: |
+|001|两数之和|Easy|
+|003|无重复字符的最长字串|Medium|
+|020|有效的括号|Easy|
+|146|LRU缓存机制|Medium|
+
+### Linked List
+|#|Problems|Level|
+|:-:|:-: | :-: |
+|002|两数相加|Medium|
+|021|合并两个有序链表|Easy|
+|206|反转链表|Easy|
+
+### Math
+|#|Problems|Level|
+|:-:|:-: | :-: |
+|007|整数反转|Easy|
+|008|字符串转换整数|Medium|
+|033|搜索旋转排序数组|Medium|
+|066|加一|Easy|
+|440|字典序的第K小数字|Hard|
+
+### String
+|#|Problems|Level|
+|:-:|:-: | :-: |
+|006|Z字形变换|Medium|
+
+### Two Pointers
+|#|Problems|Level|
+|:-:|:-: | :-: |
+|011|盛水最多的容器|Medium|
+|015|三数之和|Medium|
