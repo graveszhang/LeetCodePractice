@@ -7,6 +7,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |:-:|:-: | :-: |
 |005|最长回文子串|Medium|
 |053|最大子序和|Easy|
+|070|爬楼梯|Easy|
 |121|买卖股票的最佳时机|Easy|
 
 ### Hash Table
