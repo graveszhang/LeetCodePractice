@@ -3,6 +3,8 @@
 Start all over again using Java/C++, since Dec.31, 2020.
 
 ### BackTracking & BFS & DFS
+|#|Problems|Level|
+|:-:|:-: | :-: |
 |046|全排列|Medium|
 |199|二叉树的右视图|Medium|
 
