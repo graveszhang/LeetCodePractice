@@ -35,6 +35,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |:-:|:-: | :-: |
 |002|两数相加|Medium|
 |021|合并两个有序链表|Easy|
+|092|反转链表2|Medium|
 |206|反转链表|Easy|
 
 ### Math
