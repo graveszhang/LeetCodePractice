@@ -45,7 +45,6 @@ Start all over again using Java/C++, since Dec.31, 2020.
 ### Math
 |#|Problems|Level|Comment|
 |:-:|:-: | :-: |:-: |
-|004|寻找两个正序数组的中位数|Hard||
 |007|整数反转|Easy||
 |008|字符串转换整数|Medium||
 |031|下一个排列|Medium||
@@ -64,5 +63,6 @@ Start all over again using Java/C++, since Dec.31, 2020.
 ### Two Pointers
 |#|Problems|Level|
 |:-:|:-: | :-: |
+|004|寻找两个正序数组的中位数|Hard|
 |011|盛水最多的容器|Medium|
 |015|三数之和|Medium|
