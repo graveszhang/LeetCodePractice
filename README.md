@@ -43,15 +43,16 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |206|反转链表|Easy||
 
 ### Math
-|#|Problems|Level|
-|:-:|:-: | :-: |
-|007|整数反转|Easy|
-|008|字符串转换整数|Medium|
-|031|下一个排列|Medium|
-|033|搜索旋转排序数组|Medium|
-|056|合并区间|Medium|
-|066|加一|Easy|
-|440|字典序的第K小数字|Hard|
+|#|Problems|Level|Comment|
+|:-:|:-: | :-: |:-: |
+|007|整数反转|Easy||
+|008|字符串转换整数|Medium||
+|031|下一个排列|Medium||
+|033|搜索旋转排序数组|Medium||
+|042|接雨水|Hard|单调栈|
+|056|合并区间|Medium||
+|066|加一|Easy||
+|440|字典序的第K小数字|Hard||
 
 ### String
 |#|Problems|Level|
