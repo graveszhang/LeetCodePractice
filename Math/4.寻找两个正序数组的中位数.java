@@ -19,13 +19,24 @@ class Solution {
     }
 
     public void MergeSortedArrays(int [] sort, int[] nums1, int[] nums2, int m, int n) {
+        if (m == 0) {
+            System.arraycopy(nums2, 0, sort, 0, n);
+            return;
+        }
+        if (n == 0) {
+            System.arraycopy(nums1, 0, sort, 0, m);
+            return;
+        }
+
         int p1 = m - 1, p2 = n - 1, p = m + n - 1;
-        while ((p1 >= 0) && (p2 >= 0))
+        while ((p1 >= 0) && (p2 >= 0)){
             sort[p--] = nums1[p1] < nums2[p2] ? nums2[p2--] : nums1[p1--];
-        if (p1 > 0)
-            System.arraycopy(nums1, 0, sort, 0, p+1);
-        if (p2 > 0)
-            System.arraycopy(nums2, 0, sort, 0, p+1);
+            // System.out.println(p1);
+            // System.out.println(p2);
+        }
+            
+        if (p1 >= 0) System.arraycopy(nums1, 0, sort, 0, p+1);
+        if (p2 >= 0) System.arraycopy(nums2, 0, sort, 0, p+1);
     }
 }
 // @lc code=end
