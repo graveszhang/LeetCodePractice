@@ -60,7 +60,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 ### Multi-threading
 |#|Problems|Level|Comment|
 |:-:|:-: | :-: | :-: |
-|1114|按序打印|Medium|原子操作|
+|1114|按序打印|Medium|原子操作/信号量/栅栏|
 
  ### String
  |#|Problems|Level|
