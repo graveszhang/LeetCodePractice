@@ -9,6 +9,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |046|全排列|Medium||
 |102|二叉树的层序遍历|Medium|Deque|
 |103|二叉树的锯齿层序遍历|Medium|和102一样|
+|105|从前序和中序遍历构造二叉树|Medium||
 |199|二叉树的右视图|Medium||
 |200|岛屿数量|Medium||
 
@@ -38,32 +39,4 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |#|Problems|Level|Comment|
 |:-:|:-: | :-: |:-: |
 |002|两数相加|Medium||
-|021|合并两个有序链表|Easy||
-|092|反转链表2|Medium||
-|148|排序链表|Medium|结合021，归并排序|
-|206|反转链表|Easy||
-
-### Math
-|#|Problems|Level|Comment|
-|:-:|:-: | :-: |:-: |
-|007|整数反转|Easy||
-|008|字符串转换整数|Medium||
-|031|下一个排列|Medium||
-|033|搜索旋转排序数组|Medium||
-|042|接雨水|Hard|单调栈|
-|056|合并区间|Medium||
-|066|加一|Easy||
-|440|字典序的第K小数字|Hard||
-
-### String
-|#|Problems|Level|
-|:-:|:-: | :-: |
-|006|Z字形变换|Medium|
-|093|复原ip地址|Medium|
-
-### Two Pointers
-|#|Problems|Level|
-|:-:|:-: | :-: |
-|004|寻找两个正序数组的中位数|Hard|
-|011|盛水最多的容器|Medium|
-|015|三数之和|Medium|
+|021|合
