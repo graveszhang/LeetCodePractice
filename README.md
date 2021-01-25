@@ -3,13 +3,14 @@
 Start all over again using Java/C++, since Dec.31, 2020.
 
 ### BackTracking & BFS & DFS
-|#|Problems|Level|
-|:-:|:-: | :-: |
-|022|括号生成|Medium|
-|046|全排列|Medium|
-|102|二叉树的层序遍历|Medium|
-|199|二叉树的右视图|Medium|
-|200|岛屿数量|Medium|
+|#|Problems|Level|Comment|
+|:-:|:-: | :-: | :-: |
+|022|括号生成|Medium||
+|046|全排列|Medium||
+|102|二叉树的层序遍历|Medium|Deque|
+|103|二叉树的锯齿层序遍历|Medium|和102一样|
+|199|二叉树的右视图|Medium||
+|200|岛屿数量|Medium||
 
 ### Divide and Conquer
 |#|Problems|Level|Comment|
