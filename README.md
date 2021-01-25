@@ -56,6 +56,11 @@ Start all over again using Java/C++, since Dec.31, 2020.
  |056|合并区间|Medium||
  |066|加一|Easy||
  |440|字典序的第K小数字|Hard||
+ 
+### Multi-threading
+|#|Problems|Level|Comment|
+|:-:|:-: | :-: | :-: |
+|1114|按序打印|Medium|原子操作|
 
  ### String
  |#|Problems|Level|
