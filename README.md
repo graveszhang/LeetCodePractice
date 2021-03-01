@@ -55,6 +55,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
  |042|接雨水|Hard|单调栈|
  |056|合并区间|Medium||
  |066|加一|Easy||
+ |330|按要求补齐数组|Hard||
  |440|字典序的第K小数字|Hard||
  
 ### Multi-threading
