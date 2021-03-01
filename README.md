@@ -64,10 +64,12 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |1114|按序打印|Medium|原子操作/信号量/栅栏|
 
  ### String
- |#|Problems|Level|
- |:-:|:-: | :-: |
+ |#|Problems|Level||
+ |:-:|:-: | :-: | :-: |
+ |006|Z字形变换|Medium||
+ |076|最小覆盖子串|Hard|可优化滑动窗口|
  |006|Z字形变换|Medium|
- |093|复原ip地址|Medium|
+ |093|复原ip地址|Medium||
 
  ### Two Pointers
  |#|Problems|Level|
