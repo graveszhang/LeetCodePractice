@@ -7,6 +7,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
 |:-:|:-: | :-: | :-: |
 |022|括号生成|Medium||
 |046|全排列|Medium||
+|079|单词搜索|Medium||
 |102|二叉树的层序遍历|Medium|Deque|
 |103|二叉树的锯齿层序遍历|Medium|和102一样|
 |105|从前序和中序遍历构造二叉树|Medium||
