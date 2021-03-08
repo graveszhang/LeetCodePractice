@@ -59,6 +59,7 @@ Start all over again using Java/C++, since Dec.31, 2020.
  |056|合并区间|Medium||
  |066|加一|Easy||
  |330|按要求补齐数组|Hard||
+ |406|根据身高重建队列|Medium||
  |440|字典序的第K小数字|Hard||
  
 ### Multi-threading
